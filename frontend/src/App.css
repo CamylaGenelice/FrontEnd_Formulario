@@ -1,0 +1,75 @@
+/* 1. Configuração da página inteira */
+body {
+  margin: 0;
+  background-color: #282c34; /* O cinza escuro da tua imagem */
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ocupa a altura total da janela */
+}
+
+/* 2. Contentor do Formulário */
+.App {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 400px;
+  color: #333; /* Texto escuro dentro do card branco */
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 25px;
+  color: #282c34;
+}
+
+/* 3. Estilo dos campos de entrada */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espaço entre os inputs */
+}
+
+input {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #007bff; /* Azul ao clicar */
+}
+
+/* 4. Estilo do Botão */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  transform: scale(0.98); /* Efeito de clique */
+}
+
+/* Mensagens de erro e sucesso */
+p {
+  font-size: 14px;
+  margin-top: 15px;
+}
