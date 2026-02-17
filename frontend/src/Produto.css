@@ -1,0 +1,68 @@
+/* CadastroProduto.css */
+
+.produto-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.produto-card-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 450px;
+    color: #333;
+    text-align: center;
+    
+    /* MÁGICA AQUI: Define uma altura máxima e permite scroll */
+    max-height: 90vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.produto-header {
+    margin-bottom: 20px;
+    flex-shrink: 0; /* Impede o header de encolher */
+}
+
+/* Área de scroll para a lista */
+.produto-scroll-area {
+    overflow-y: auto;
+    padding-right: 10px;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+/* Customização da barra de rolagem */
+.produto-scroll-area::-webkit-scrollbar {
+    width: 6px;
+}
+.produto-scroll-area::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+.produto-item {
+    background: #f8f9fa;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: left;
+    border-left: 5px solid #007bff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.produto-item p {
+    margin: 0;
+    font-weight: bold;
+    color: #282c34;
+}
+
+.produto-item span {
+    font-size: 0.85em;
+    color: #666;
+}

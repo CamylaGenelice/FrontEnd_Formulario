@@ -49,7 +49,7 @@ const CadastroUsuario = () => {
   };
 
   return (
-    <div style={{ maxWidth: '400px', margin: '50px auto', fontFamily: 'Arial' }}>
+    <div className='card' style={{ maxWidth: '400px', margin: '50px auto', fontFamily: 'Arial' }}>
       <h2>Cadastro de Usuário</h2>
       
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
