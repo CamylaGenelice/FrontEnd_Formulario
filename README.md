@@ -1,6 +1,6 @@
 # 💻 Cadastro de Usuários - Interface React
 
-Este é o front-end da API de cadastro de produto e de usuários. Desenvolvido com Javascript, HTML, CSS e Bootstrap.
+Este é o front-end da API de cadastro de produto e de usuários, construído com React.
 
 ---
 
